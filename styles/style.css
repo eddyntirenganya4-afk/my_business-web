@@ -1,0 +1,124 @@
+body{
+    overflow-x: hidden; 
+    margin-top: 30px;
+    margin-left: 30px; 
+    margin-right: 30px;
+    font-size: larger;
+}
+header{
+  text-align: center;
+  position: sticky;
+}
+.navigation{
+    display: flex;
+    justify-content: right;
+    margin-right: 90px;
+    list-style: none;
+    gap: 50px;
+    list-style: none;
+}
+.navigation>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.navigation>li>a:hover{
+    background: rgba(0, 0, 0, 0.349);
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+.navigation>li>a:focus{
+    border-style: dashed;
+    padding: 5px;
+    border-radius: 8px;
+    color: antiquewhite;
+    background-color: dimgray;
+    font-size: small;
+
+}
+main{
+    padding: 80px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: -30px;
+    margin-right: -30px;
+    background-color: rgba(0, 0, 0, 0.434);
+    margin-bottom: 30px;
+}
+.main-product{
+   background-color: transparent;
+   text-align: justify;
+   padding: 0px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.main-about{
+   background-color: transparent;
+   text-align: justify;
+   padding: 0px;
+   margin-left: auto;
+   margin-right: auto;
+}
+main>section{
+    margin-top: 20px;
+    padding: 40px;
+    height: 40vh;
+}
+main>section>div>h2{
+    margin-top: 40px;
+    color: white;
+}
+.main-about>section>div>h2{
+    color: black;
+}
+
+main>section>div>p{
+    padding: 20px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    color: white;
+}
+main>section>div>button{
+    padding: 15px;
+    width: 120px;
+    border-radius: 15px;
+    border-style: none;
+    background: rgba(255, 68, 0, 0.788);
+}
+main>section>div>button:hover{
+    cursor: pointer;
+}
+main>section>div>button>a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+footer>.footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer>.footer>div{
+    background-color: rgba(255, 68, 0, 0.363);
+    width: 30vw;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+footer>.footer>div>h4{
+    font-size: larger;
+}
+footer>.footer>div>a{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+footer>.footer>div>.icons>a{
+    justify-content: space-around;
+    margin: 20px;
+}

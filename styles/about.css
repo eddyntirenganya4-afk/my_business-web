@@ -1,0 +1,9 @@
+.main-about>section>.about-H{
+    justify-items: center;
+    color: black;
+}
+.main-about>section>.about-H>p{
+    justify-items: center;
+    color: rgba(0, 0, 0, 0.603);
+    margin-top: 30px;
+}

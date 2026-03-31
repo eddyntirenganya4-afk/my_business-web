@@ -1,0 +1,21 @@
+.main-product>.galley>.galley-H{
+    justify-items: center;
+    margin-bottom: 30px;
+    padding: 35px;
+}
+
+.main-product>.galley>section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.386);
+}
+
+.main-product>.galley>section>section>img{
+    height: 40vh;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+    
+}
